@@ -1,6 +1,6 @@
 # special-chatt-robot 🤖
 
-![UI of the ChatBot](MistralChatbot.mp4)
+![UI of the ChatBot](https://github.com/raunakgola/special-chatt-robot/blob/main/MistralChatbot.mp4)
 
 Mistral Chatbot is a conversational AI application built with Streamlit and the `ctransformers` library. It leverages the Mistral-7B-Instruct model to provide intelligent and interactive responses for various queries.
 
