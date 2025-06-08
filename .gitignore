@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Hugging Face model files
+#  These files are large and can be regenerated or downloaded again.
+mistral-7b-instruct-v0.1.Q6_K.gguf

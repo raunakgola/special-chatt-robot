@@ -13,9 +13,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Constants
-MODEL_NAME = "TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+# MODEL_NAME = "TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
+# MODEL_FILE = "mistral-7b-instruct-v0.1.Q6_K.gguf"
+MODEL_PATH = "/root/.cache/ctransformers/models/TheBloke/Mistral-7B-Instruct-v0.1-GGUF"
 MODEL_FILE = "mistral-7b-instruct-v0.1.Q6_K.gguf"
-
 # Initialize global dictionary for models
 llms = {}
 
@@ -44,7 +45,7 @@ def load_model():
         )
     )
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_NAME,
+        MODEL_PATH,
         model_file=MODEL_FILE,
         config=config,
     )
